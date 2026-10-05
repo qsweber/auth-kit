@@ -17,5 +17,12 @@ export default defineConfig({
   banner: {
     js: '"use client";',
   },
-  external: ["react", "react-dom", "next", "aws-amplify", "@emotion/react", "@emotion/styled"],
+  external: [
+    "react",
+    "react-dom",
+    "next",
+    "aws-amplify",
+    "@emotion/react",
+    "@emotion/styled",
+  ],
 });

@@ -95,8 +95,8 @@ export const ProfileForm: React.FC = () => {
       <Section>
         <h2>Passkeys</h2>
         <p>
-          Register a passkey to sign in without a password next time, using
-          your device&apos;s fingerprint, face, or screen lock.
+          Register a passkey to sign in without a password next time, using your
+          device&apos;s fingerprint, face, or screen lock.
         </p>
         <Button onClick={handleRegisterPasskey} disabled={isRegisteringPasskey}>
           {isRegisteringPasskey

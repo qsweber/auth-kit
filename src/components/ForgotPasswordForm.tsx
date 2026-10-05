@@ -51,8 +51,8 @@ export const ForgotPasswordForm: React.FC = () => {
     return (
       <Container>
         <WarningMessage>
-          AWS Cognito is not configured. Call configureAuth() with your
-          Cognito pool details on startup.
+          AWS Cognito is not configured. Call configureAuth() with your Cognito
+          pool details on startup.
         </WarningMessage>
       </Container>
     );
